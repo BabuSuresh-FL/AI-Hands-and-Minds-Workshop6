@@ -10,14 +10,12 @@ import traceback
 
 st.set_page_config(page_title="🚗 Apex Auto Insurance", page_icon="🚗", layout="centered")
 
-"""
-RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-2:744079559870:runtime/w5app1projectname1_w5app1Agent1alKczI4xDy"
-REGION      = "us-east-2"
-Sample Format is shown above.
-Make sure get the Runtime ID of your AgentCore Agent and paste it in place <Paste_Your_RuntimeID-of-your-AgentCoreAgent_Here> below. 
-And fill in your Region and Account also
-"""
-
+# ----------------------------------------------------------------------------------------------------------------------------- 
+# ── RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-2:744079559870:runtime/w5app1projectname1_w5app1Agent1alKczI4xDy"
+# ── REGION      = "us-east-2"
+# ── Sample Format is shown above.
+# ── Make sure get the Runtime ID of your AgentCore Agent and paste it in place <Paste_Your_RuntimeID-of-your-AgentCoreAgent_Here> below. 
+# ── And fill in your Region and Account also
 RUNTIME_ARN = "arn:aws:bedrock-agentcore:<Paste_Your_Region>:<Paste_Your_AWS_Account>:runtime/<Paste_Your_RuntimeID-of-your-AgentCoreAgent_Here>"
 REGION      = "<Paste_Your_Region>"
 
